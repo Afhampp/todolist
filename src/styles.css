@@ -1,1 +1,62 @@
-/* You can add global styles to this file, and also import other style files */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 400px; /* Adjust the width as needed */
+    height: auto; /* Adjust the height as needed or remove the height property */
+    margin: 20px auto; /* Center horizontally with top and bottom margin */
+    border: 1px solid black;
+  }
+  /* Apply some basic styles to the form */
+form {
+  width: 379px;
+  margin: 20px 0;
+}
+
+/* Style the form control container */
+.form-control {
+  margin-bottom: 20px;
+}
+
+/* Style the label */
+label {
+  display: block;
+  margin-bottom: 5px;
+  color: #333;
+  font-weight: bold;
+}
+
+/* Style the input */
+input[type="text"] {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+/* Style the placeholder text */
+input[type="text"]::placeholder {
+  color: #999;
+}
+
+/* Style the checkbox container */
+.checkbox-container {
+  display: flex;
+  align-items: center;
+}
+
+/* Style the checkbox label */
+.checkbox-container label {
+  margin-left: 5px;
+  color: #333;
+  font-weight: normal;
+}
+
+  
